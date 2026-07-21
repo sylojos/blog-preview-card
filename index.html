@@ -1,34 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <div class="card">
+          <div class="card-decorative">
+            <img
+              class="card-decorative-image"
+              src="assets/images/illustration-article.svg"
+              height="201"
+              width="336"
+              alt=""
+            />
+          </div>
+          <div class="card-content">
+            <span class="card-content-tag">Learning</span>
+            <div class="card-content-date">
+              Published <time datetime="2023-12-21">21 Dec 2023</time>
+            </div>
+            <h1>
+              <a href="https://www.frontendmentor.io/">
+                HTML & CSS foundations
+              </a>
+            </h1>
+            <p>
+              These languages are the backbone of every website, defining
+              structure, content, and presentation.
+            </p>
+          </div>
+          <div class="card-author">
+            <img
+              class="card-author-avatar"
+              src="assets/images/image-avatar.webp"
+              height="65"
+              width="64"
+              alt=""
+            />
+            <span class="card-author-name">Greg Hooper</span>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
